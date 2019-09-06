@@ -8,6 +8,12 @@ export async function getRecommend() {
   return data.data.list.map(item => new Goods(item))
 }
 
+export async function getShortLink(opts = {}) {
+  const { data } = await axios.post('/api/goods/getShortLink', opts)
+  if (data.code !== ERR_OK) return null
+  return `${opts.redirectUrl}?sl=${data.data.seller}`
+}
+
 export class Goods {
   constructor(opts = {}) {
     this.id = opts.id

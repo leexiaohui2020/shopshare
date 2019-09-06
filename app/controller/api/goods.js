@@ -6,6 +6,11 @@ class GoodsApiController extends Controller {
     const { ctx } = this
     ctx.body = await ctx.service.goods.getRecommend()
   }
+
+  async getShortLink() {
+    const { ctx } = this
+    ctx.body = await ctx.service.goods.getShortLink(ctx.request.body)
+  }
 }
 
 module.exports = GoodsApiController

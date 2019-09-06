@@ -21,4 +21,25 @@
   &-custom {
     height: @header-h;
   }
+
+  &-action {
+    top: 0;
+    width: @header-h;
+    height: @header-h;
+    text-align: center;
+    line-height: @header-h;
+    font-size: @text-xxl;
+    position: absolute;
+    z-index: @z-index-df;
+    color: @color-theme;
+    cursor: pointer;
+
+    &.left {
+      left: 0;
+    }
+
+    &.right {
+      right: 0;
+    }
+  }
 }

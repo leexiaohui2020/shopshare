@@ -29,7 +29,7 @@
 
 <script>
 import { SEARCH_PLACEHOLDER } from 'common/constant-types'
-import { mapState } from 'vuex'
+import { mapState, mapActions } from 'vuex'
 import { getRecommend } from 'shop42284557/api/goods'
 
 export default {
@@ -49,8 +49,10 @@ export default {
     },
 
     async onSelectGoods(goods) {
-      console.info(goods)
-    }
+      await this.openGoods(goods)
+    },
+
+    ...mapActions('frame', ['openGoods']),
   },
   async mounted() {
     await this._getRecommend()
