@@ -11,8 +11,8 @@ class Router {
         this.attributes.name = name;
         this.attributes.path = path;
         this.attributes.component = component;
-        this.attributes.meta = meta;
-        this.attributes.extra = extra;
+        this.meta = meta;
+        this.extra = extra;
     }
 
     addChild(pageComponent) {
@@ -23,7 +23,8 @@ class Router {
     }
 
     exec() {
-        const route = Object.assign({}, this.attributes);
+        const route = Object.assign({}, this.attributes, this.extra);
+        route.meta = this.meta || {};
         if (this.children.length) route.children = this.children;
         return route;
     }

@@ -1,0 +1,9 @@
+2019-09-07 02:01:09,230 ERROR 3236 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3236
+hostname: DESKTOP-DSPCPEP
+

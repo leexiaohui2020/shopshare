@@ -1,21 +1,30 @@
-2019-09-06 22:34:51,475 INFO 10904 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
-2019-09-06 22:34:51,475 INFO 10904 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2019-09-06 22:34:51,475 INFO 10904 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2019-09-06 22:34:51,741 INFO 11004 [Timer] F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 21308263ms at 2019-09-07 04:30:00.004
-2019-09-06 22:34:51,742 INFO 11004 [Timer] F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 5108259ms at 2019-09-07 00:00:00.001
-2019-09-06 22:34:51,742 INFO 11004 [Timer] F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 5109258ms at 2019-09-07 00:00:01.000
-2019-09-06 22:38:15,804 INFO 3640 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
-2019-09-06 22:38:15,804 INFO 3640 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2019-09-06 22:38:15,804 INFO 3640 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2019-09-06 22:38:16,137 INFO 3988 [Timer] F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 21103868ms at 2019-09-07 04:30:00.005
-2019-09-06 22:38:16,137 INFO 3988 [Timer] F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 4903863ms at 2019-09-07 00:00:00.000
-2019-09-06 22:38:16,138 INFO 3988 [Timer] F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 4904863ms at 2019-09-07 00:00:01.001
-2019-09-06 22:42:10,631 INFO 10844 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
-2019-09-06 22:42:10,632 INFO 10844 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2019-09-06 22:42:10,632 INFO 10844 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
-2019-09-06 22:42:10,889 INFO 3236 [Timer] F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 20869116ms at 2019-09-07 04:30:00.005
-2019-09-06 22:42:10,890 INFO 3236 [Timer] F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 4669111ms at 2019-09-07 00:00:00.001
-2019-09-06 22:42:10,890 INFO 3236 [Timer] F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 4670110ms at 2019-09-07 00:00:01.000
-2019-09-06 22:43:05,948 INFO 6888 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
-2019-09-06 22:43:05,948 INFO 6888 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
-2019-09-06 22:43:05,948 INFO 6888 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-09-07 00:31:47,433 INFO 10860 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
+2019-09-07 00:31:47,434 INFO 10860 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2019-09-07 00:31:47,434 INFO 10860 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-09-07 00:33:09,342 INFO 1692 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
+2019-09-07 00:33:09,342 INFO 1692 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2019-09-07 00:33:09,342 INFO 1692 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-09-07 00:33:50,974 INFO 12124 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
+2019-09-07 00:33:50,975 INFO 12124 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2019-09-07 00:33:50,975 INFO 12124 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-09-07 00:33:56,512 INFO 4228 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
+2019-09-07 00:33:56,512 INFO 4228 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2019-09-07 00:33:56,512 INFO 4228 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-09-07 00:40:04,987 INFO 4124 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
+2019-09-07 00:40:04,987 INFO 4124 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2019-09-07 00:40:04,987 INFO 4124 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-09-07 00:40:40,405 INFO 6724 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
+2019-09-07 00:40:40,405 INFO 6724 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2019-09-07 00:40:40,405 INFO 6724 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-09-07 02:01:03,190 INFO 6184 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
+2019-09-07 02:01:03,191 INFO 6184 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2019-09-07 02:01:03,191 INFO 6184 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-09-07 02:01:09,089 INFO 1068 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
+2019-09-07 02:01:09,089 INFO 1068 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2019-09-07 02:01:09,089 INFO 1068 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-09-07 02:01:46,610 INFO 6724 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
+2019-09-07 02:01:46,610 INFO 6724 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2019-09-07 02:01:46,610 INFO 6724 [egg-schedule]: register schedule F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-09-07 02:01:46,998 INFO 10928 [Timer] F:\user\desktop\Project\Shopshare\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 8893007ms at 2019-09-07 04:30:00.005
+2019-09-07 02:01:46,999 INFO 10928 [Timer] F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 79093001ms at 2019-09-08 00:00:00.000
+2019-09-07 02:01:47,000 INFO 10928 [Timer] F:\user\desktop\Project\Shopshare\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 79094000ms at 2019-09-08 00:00:01.000

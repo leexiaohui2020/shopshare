@@ -1,0 +1,24 @@
+@import '~common/style/vars';
+
+@header-h: 50px;
+
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: @header-h;
+  position: fixed;
+  z-index: @z-index-df;
+
+  &-title {
+    margin: 0;
+    text-align: center;
+    line-height: @header-h;
+    font-size: @text-xl;
+    color: @color-theme;
+  }
+
+  &-custom {
+    height: @header-h;
+  }
+}

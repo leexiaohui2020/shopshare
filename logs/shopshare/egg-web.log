@@ -1,52 +1,118 @@
-2019-09-06 22:34:51,423 INFO 10904 [egg:logger] init all loggers with options: {"dir":"F:\\user\\desktop\\Project\\Shopshare\\logs\\shopshare","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"shopshare-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-09-06 22:34:51,475 INFO 10904 [egg-multipart] stream mode enable
-2019-09-06 22:34:51,638 INFO 10904 [egg-static] starting static serve /public/ -> F:\user\desktop\Project\Shopshare\public
-2019-09-06 22:34:51,642 INFO 10904 [egg-security] use methodnoallow middleware
-2019-09-06 22:34:51,643 INFO 10904 [egg-security] use noopen middleware
-2019-09-06 22:34:51,646 INFO 10904 [egg-security] use nosniff middleware
-2019-09-06 22:34:51,647 INFO 10904 [egg-security] use xssProtection middleware
-2019-09-06 22:34:51,648 INFO 10904 [egg-security] use xframe middleware
-2019-09-06 22:34:51,649 INFO 10904 [egg-security] use dta middleware
-2019-09-06 22:34:51,649 INFO 10904 [egg-security] compose 6 middlewares into one security middleware
-2019-09-06 22:34:51,679 INFO 10904 [egg:core] dump config after load, 23ms
-2019-09-06 22:34:51,717 INFO 10904 [egg-watcher:application] watcher start success
-2019-09-06 22:34:51,731 INFO 10904 [egg:core] dump config after ready, 10ms
-2019-09-06 22:38:15,756 INFO 3640 [egg:logger] init all loggers with options: {"dir":"F:\\user\\desktop\\Project\\Shopshare\\logs\\shopshare","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"shopshare-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-09-06 22:38:15,805 INFO 3640 [egg-multipart] stream mode enable
-2019-09-06 22:38:16,004 INFO 3640 [egg-static] starting static serve /public/ -> F:\user\desktop\Project\Shopshare\public
-2019-09-06 22:38:16,011 INFO 3640 [egg-security] use methodnoallow middleware
-2019-09-06 22:38:16,013 INFO 3640 [egg-security] use noopen middleware
-2019-09-06 22:38:16,016 INFO 3640 [egg-security] use nosniff middleware
-2019-09-06 22:38:16,020 INFO 3640 [egg-security] use xssProtection middleware
-2019-09-06 22:38:16,022 INFO 3640 [egg-security] use xframe middleware
-2019-09-06 22:38:16,023 INFO 3640 [egg-security] use dta middleware
-2019-09-06 22:38:16,023 INFO 3640 [egg-security] compose 6 middlewares into one security middleware
-2019-09-06 22:38:16,049 INFO 3640 [egg:core] dump config after load, 14ms
-2019-09-06 22:38:16,099 INFO 3640 [egg-watcher:application] watcher start success
-2019-09-06 22:38:16,127 INFO 3640 [egg:core] dump config after ready, 20ms
-2019-09-06 22:42:10,585 INFO 10844 [egg:logger] init all loggers with options: {"dir":"F:\\user\\desktop\\Project\\Shopshare\\logs\\shopshare","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"shopshare-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-09-06 22:42:10,632 INFO 10844 [egg-multipart] stream mode enable
-2019-09-06 22:42:10,793 INFO 10844 [egg-static] starting static serve /public/ -> F:\user\desktop\Project\Shopshare\public
-2019-09-06 22:42:10,798 INFO 10844 [egg-security] use methodnoallow middleware
-2019-09-06 22:42:10,800 INFO 10844 [egg-security] use noopen middleware
-2019-09-06 22:42:10,802 INFO 10844 [egg-security] use nosniff middleware
-2019-09-06 22:42:10,803 INFO 10844 [egg-security] use xssProtection middleware
-2019-09-06 22:42:10,804 INFO 10844 [egg-security] use xframe middleware
-2019-09-06 22:42:10,806 INFO 10844 [egg-security] use dta middleware
-2019-09-06 22:42:10,806 INFO 10844 [egg-security] compose 6 middlewares into one security middleware
-2019-09-06 22:42:10,824 INFO 10844 [egg:core] dump config after load, 10ms
-2019-09-06 22:42:10,866 INFO 10844 [egg-watcher:application] watcher start success
-2019-09-06 22:42:10,879 INFO 10844 [egg:core] dump config after ready, 10ms
-2019-09-06 22:43:05,889 INFO 6888 [egg:logger] init all loggers with options: {"dir":"F:\\user\\desktop\\Project\\Shopshare\\logs\\shopshare","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"shopshare-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2019-09-06 22:43:05,949 INFO 6888 [egg-multipart] stream mode enable
-2019-09-06 22:43:06,133 INFO 6888 [egg-static] starting static serve /public/ -> F:\user\desktop\Project\Shopshare\public
-2019-09-06 22:43:06,137 INFO 6888 [egg-security] use methodnoallow middleware
-2019-09-06 22:43:06,139 INFO 6888 [egg-security] use noopen middleware
-2019-09-06 22:43:06,142 INFO 6888 [egg-security] use nosniff middleware
-2019-09-06 22:43:06,144 INFO 6888 [egg-security] use xssProtection middleware
-2019-09-06 22:43:06,145 INFO 6888 [egg-security] use xframe middleware
-2019-09-06 22:43:06,147 INFO 6888 [egg-security] use dta middleware
-2019-09-06 22:43:06,147 INFO 6888 [egg-security] compose 6 middlewares into one security middleware
-2019-09-06 22:43:06,178 INFO 6888 [egg:core] dump config after load, 18ms
-2019-09-06 22:43:06,218 INFO 6888 [egg-watcher:application] watcher start success
-2019-09-06 22:43:06,239 INFO 6888 [egg:core] dump config after ready, 13ms
+2019-09-07 00:00:01,028 INFO 6888 [egg-logrotator] app logger reload: got log-reload message
+2019-09-07 00:31:47,377 INFO 10860 [egg:logger] init all loggers with options: {"dir":"F:\\user\\desktop\\Project\\Shopshare\\logs\\shopshare","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"shopshare-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-07 00:31:47,434 INFO 10860 [egg-multipart] stream mode enable
+2019-09-07 00:31:47,638 INFO 10860 [egg-static] starting static serve /public/ -> F:\user\desktop\Project\Shopshare\public
+2019-09-07 00:31:47,644 INFO 10860 [egg-security] use methodnoallow middleware
+2019-09-07 00:31:47,645 INFO 10860 [egg-security] use noopen middleware
+2019-09-07 00:31:47,648 INFO 10860 [egg-security] use nosniff middleware
+2019-09-07 00:31:47,649 INFO 10860 [egg-security] use xssProtection middleware
+2019-09-07 00:31:47,650 INFO 10860 [egg-security] use xframe middleware
+2019-09-07 00:31:47,651 INFO 10860 [egg-security] use dta middleware
+2019-09-07 00:31:47,651 INFO 10860 [egg-security] compose 6 middlewares into one security middleware
+2019-09-07 00:31:47,672 INFO 10860 [egg:core] dump config after load, 13ms
+2019-09-07 00:31:47,697 INFO 10860 [egg-watcher:application] watcher start success
+2019-09-07 00:31:47,718 INFO 10860 [egg:core] dump config after ready, 13ms
+2019-09-07 00:33:09,291 INFO 1692 [egg:logger] init all loggers with options: {"dir":"F:\\user\\desktop\\Project\\Shopshare\\logs\\shopshare","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"shopshare-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-07 00:33:09,343 INFO 1692 [egg-multipart] stream mode enable
+2019-09-07 00:33:09,563 INFO 1692 [egg-static] starting static serve /public/ -> F:\user\desktop\Project\Shopshare\public
+2019-09-07 00:33:09,571 INFO 1692 [egg-security] use methodnoallow middleware
+2019-09-07 00:33:09,573 INFO 1692 [egg-security] use noopen middleware
+2019-09-07 00:33:09,579 INFO 1692 [egg-security] use nosniff middleware
+2019-09-07 00:33:09,580 INFO 1692 [egg-security] use xssProtection middleware
+2019-09-07 00:33:09,582 INFO 1692 [egg-security] use xframe middleware
+2019-09-07 00:33:09,584 INFO 1692 [egg-security] use dta middleware
+2019-09-07 00:33:09,584 INFO 1692 [egg-security] compose 6 middlewares into one security middleware
+2019-09-07 00:33:09,621 INFO 1692 [egg:core] dump config after load, 21ms
+2019-09-07 00:33:09,656 INFO 1692 [egg-watcher:application] watcher start success
+2019-09-07 00:33:09,772 INFO 1692 [egg:core] dump config after ready, 109ms
+2019-09-07 00:33:50,924 INFO 12124 [egg:logger] init all loggers with options: {"dir":"F:\\user\\desktop\\Project\\Shopshare\\logs\\shopshare","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"shopshare-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-07 00:33:50,975 INFO 12124 [egg-multipart] stream mode enable
+2019-09-07 00:33:51,181 INFO 12124 [egg-static] starting static serve /public/ -> F:\user\desktop\Project\Shopshare\public
+2019-09-07 00:33:51,186 INFO 12124 [egg-security] use methodnoallow middleware
+2019-09-07 00:33:51,187 INFO 12124 [egg-security] use noopen middleware
+2019-09-07 00:33:51,191 INFO 12124 [egg-security] use nosniff middleware
+2019-09-07 00:33:51,193 INFO 12124 [egg-security] use xssProtection middleware
+2019-09-07 00:33:51,194 INFO 12124 [egg-security] use xframe middleware
+2019-09-07 00:33:51,195 INFO 12124 [egg-security] use dta middleware
+2019-09-07 00:33:51,195 INFO 12124 [egg-security] compose 6 middlewares into one security middleware
+2019-09-07 00:33:51,219 INFO 12124 [egg:core] dump config after load, 15ms
+2019-09-07 00:33:51,254 INFO 12124 [egg-watcher:application] watcher start success
+2019-09-07 00:33:51,288 INFO 12124 [egg:core] dump config after ready, 24ms
+2019-09-07 00:33:56,446 INFO 4228 [egg:logger] init all loggers with options: {"dir":"F:\\user\\desktop\\Project\\Shopshare\\logs\\shopshare","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"shopshare-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-07 00:33:56,514 INFO 4228 [egg-multipart] stream mode enable
+2019-09-07 00:33:56,737 INFO 4228 [egg-static] starting static serve /public/ -> F:\user\desktop\Project\Shopshare\public
+2019-09-07 00:33:56,743 INFO 4228 [egg-security] use methodnoallow middleware
+2019-09-07 00:33:56,744 INFO 4228 [egg-security] use noopen middleware
+2019-09-07 00:33:56,747 INFO 4228 [egg-security] use nosniff middleware
+2019-09-07 00:33:56,749 INFO 4228 [egg-security] use xssProtection middleware
+2019-09-07 00:33:56,750 INFO 4228 [egg-security] use xframe middleware
+2019-09-07 00:33:56,751 INFO 4228 [egg-security] use dta middleware
+2019-09-07 00:33:56,751 INFO 4228 [egg-security] compose 6 middlewares into one security middleware
+2019-09-07 00:33:56,778 INFO 4228 [egg:core] dump config after load, 15ms
+2019-09-07 00:33:56,826 INFO 4228 [egg-watcher:application] watcher start success
+2019-09-07 00:33:56,849 INFO 4228 [egg:core] dump config after ready, 18ms
+2019-09-07 00:40:04,935 INFO 4124 [egg:logger] init all loggers with options: {"dir":"F:\\user\\desktop\\Project\\Shopshare\\logs\\shopshare","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"shopshare-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-07 00:40:04,993 INFO 4124 [egg-multipart] stream mode enable
+2019-09-07 00:40:05,207 INFO 4124 [egg-static] starting static serve /public/ -> F:\user\desktop\Project\Shopshare\public
+2019-09-07 00:40:05,213 INFO 4124 [egg-security] use methodnoallow middleware
+2019-09-07 00:40:05,215 INFO 4124 [egg-security] use noopen middleware
+2019-09-07 00:40:05,219 INFO 4124 [egg-security] use nosniff middleware
+2019-09-07 00:40:05,222 INFO 4124 [egg-security] use xssProtection middleware
+2019-09-07 00:40:05,222 INFO 4124 [egg-security] use xframe middleware
+2019-09-07 00:40:05,225 INFO 4124 [egg-security] use dta middleware
+2019-09-07 00:40:05,225 INFO 4124 [egg-security] compose 6 middlewares into one security middleware
+2019-09-07 00:40:05,248 INFO 4124 [egg:core] dump config after load, 13ms
+2019-09-07 00:40:05,294 INFO 4124 [egg-watcher:application] watcher start success
+2019-09-07 00:40:05,320 INFO 4124 [egg:core] dump config after ready, 20ms
+2019-09-07 00:40:40,345 INFO 6724 [egg:logger] init all loggers with options: {"dir":"F:\\user\\desktop\\Project\\Shopshare\\logs\\shopshare","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"shopshare-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-07 00:40:40,407 INFO 6724 [egg-multipart] stream mode enable
+2019-09-07 00:40:40,602 INFO 6724 [egg-static] starting static serve /public/ -> F:\user\desktop\Project\Shopshare\public
+2019-09-07 00:40:40,607 INFO 6724 [egg-security] use methodnoallow middleware
+2019-09-07 00:40:40,609 INFO 6724 [egg-security] use noopen middleware
+2019-09-07 00:40:40,612 INFO 6724 [egg-security] use nosniff middleware
+2019-09-07 00:40:40,614 INFO 6724 [egg-security] use xssProtection middleware
+2019-09-07 00:40:40,615 INFO 6724 [egg-security] use xframe middleware
+2019-09-07 00:40:40,616 INFO 6724 [egg-security] use dta middleware
+2019-09-07 00:40:40,616 INFO 6724 [egg-security] compose 6 middlewares into one security middleware
+2019-09-07 00:40:40,647 INFO 6724 [egg:core] dump config after load, 19ms
+2019-09-07 00:40:40,704 INFO 6724 [egg-watcher:application] watcher start success
+2019-09-07 00:40:40,728 INFO 6724 [egg:core] dump config after ready, 18ms
+2019-09-07 02:01:02,995 INFO 6184 [egg:logger] init all loggers with options: {"dir":"F:\\user\\desktop\\Project\\Shopshare\\logs\\shopshare","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"shopshare-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-07 02:01:03,192 INFO 6184 [egg-multipart] stream mode enable
+2019-09-07 02:01:03,879 INFO 6184 [egg-static] starting static serve /public/ -> F:\user\desktop\Project\Shopshare\public
+2019-09-07 02:01:03,887 INFO 6184 [egg-security] use methodnoallow middleware
+2019-09-07 02:01:03,890 INFO 6184 [egg-security] use noopen middleware
+2019-09-07 02:01:03,894 INFO 6184 [egg-security] use nosniff middleware
+2019-09-07 02:01:03,896 INFO 6184 [egg-security] use xssProtection middleware
+2019-09-07 02:01:03,898 INFO 6184 [egg-security] use xframe middleware
+2019-09-07 02:01:03,900 INFO 6184 [egg-security] use dta middleware
+2019-09-07 02:01:03,900 INFO 6184 [egg-security] compose 6 middlewares into one security middleware
+2019-09-07 02:01:03,941 INFO 6184 [egg:core] dump config after load, 21ms
+2019-09-07 02:01:04,012 INFO 6184 [egg-watcher:application] watcher start success
+2019-09-07 02:01:04,034 INFO 6184 [egg:core] dump config after ready, 17ms
+2019-09-07 02:01:09,035 INFO 1068 [egg:logger] init all loggers with options: {"dir":"F:\\user\\desktop\\Project\\Shopshare\\logs\\shopshare","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"shopshare-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-07 02:01:09,090 INFO 1068 [egg-multipart] stream mode enable
+2019-09-07 02:01:09,295 INFO 1068 [egg-static] starting static serve /public/ -> F:\user\desktop\Project\Shopshare\public
+2019-09-07 02:01:09,302 INFO 1068 [egg-security] use methodnoallow middleware
+2019-09-07 02:01:09,303 INFO 1068 [egg-security] use noopen middleware
+2019-09-07 02:01:09,305 INFO 1068 [egg-security] use nosniff middleware
+2019-09-07 02:01:09,307 INFO 1068 [egg-security] use xssProtection middleware
+2019-09-07 02:01:09,308 INFO 1068 [egg-security] use xframe middleware
+2019-09-07 02:01:09,309 INFO 1068 [egg-security] use dta middleware
+2019-09-07 02:01:09,309 INFO 1068 [egg-security] compose 6 middlewares into one security middleware
+2019-09-07 02:01:09,339 INFO 1068 [egg:core] dump config after load, 15ms
+2019-09-07 02:01:09,387 INFO 1068 [egg-watcher:application] watcher start success
+2019-09-07 02:01:09,413 INFO 1068 [egg:core] dump config after ready, 19ms
+2019-09-07 02:01:46,489 INFO 6724 [egg:logger] init all loggers with options: {"dir":"F:\\user\\desktop\\Project\\Shopshare\\logs\\shopshare","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"shopshare-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-07 02:01:46,612 INFO 6724 [egg-multipart] stream mode enable
+2019-09-07 02:01:46,813 INFO 6724 [egg-static] starting static serve /public/ -> F:\user\desktop\Project\Shopshare\public
+2019-09-07 02:01:46,820 INFO 6724 [egg-security] use methodnoallow middleware
+2019-09-07 02:01:46,822 INFO 6724 [egg-security] use noopen middleware
+2019-09-07 02:01:46,825 INFO 6724 [egg-security] use nosniff middleware
+2019-09-07 02:01:46,826 INFO 6724 [egg-security] use xssProtection middleware
+2019-09-07 02:01:46,835 INFO 6724 [egg-security] use xframe middleware
+2019-09-07 02:01:46,838 INFO 6724 [egg-security] use dta middleware
+2019-09-07 02:01:46,839 INFO 6724 [egg-security] compose 6 middlewares into one security middleware
+2019-09-07 02:01:46,889 INFO 6724 [egg:core] dump config after load, 16ms
+2019-09-07 02:01:46,926 INFO 6724 [egg-watcher:application] watcher start success
+2019-09-07 02:01:46,986 INFO 6724 [egg:core] dump config after ready, 53ms

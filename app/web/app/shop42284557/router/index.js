@@ -49,5 +49,6 @@ export default function createRouter(getStore) {
         }
     });
 
+    console.info(routes)
     return router;
 };

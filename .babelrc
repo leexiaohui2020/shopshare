@@ -8,6 +8,7 @@
           }
         }]],
         "plugins": [
+          "transform-runtime",
           "transform-object-rest-spread",
           "syntax-dynamic-import"
         ]
@@ -20,6 +21,7 @@
           }
         }]],
         "plugins": [
+          "transform-runtime",
           "transform-object-rest-spread",
           "syntax-dynamic-import",
           "transform-object-assign"

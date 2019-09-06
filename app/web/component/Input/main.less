@@ -1,0 +1,35 @@
+@import '~common/style/vars';
+
+@bar-h: 40px;
+
+.bar {
+  height: @bar-h;
+  border-radius: 4px;
+  background: @bg-card;
+  box-shadow: 0 0 1px @shadow-color;
+  display: flex;
+  align-items: center;
+
+  &-input {
+    flex: 1;
+    height: @bar-h;
+    margin: 0;
+    padding: 0 @margin-sm;
+    border: none;
+    outline: none;
+  }
+
+  &-prefix,
+  &-suffix {
+    font-size: @text-xl;
+    color: @text-color-l;
+  }
+
+  &-prefix {
+    margin-left: @margin-sm;
+  }
+
+  &-suffix {
+    margin-right: @margin-sm;
+  }
+}
