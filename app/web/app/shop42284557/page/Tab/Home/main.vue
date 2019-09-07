@@ -8,7 +8,7 @@
     <lee-scroll ref="scroll" height="calc(100vh - 100px)">
       <!-- 分类导航 -->
       <lee-grid class="nav">
-        <div class="nav-item" v-for="(v, k) of typesNav" :key="k">
+        <div class="nav-item" v-for="(v, k) of typesNav" :key="k" @click="openTagItem(v)">
           <div class="nav-image">
             <img :src="v.image" :alt="v.title">
           </div>
@@ -29,7 +29,7 @@
 
 <script>
 import { SEARCH_PLACEHOLDER } from 'common/constant-types'
-import { mapState, mapActions } from 'vuex'
+import { mapState } from 'vuex'
 import { getRecommend } from 'shop42284557/api/goods'
 
 export default {
@@ -49,10 +49,18 @@ export default {
     },
 
     async onSelectGoods(goods) {
-      await this.openGoods(goods)
+      await goods.open()
     },
 
-    ...mapActions('frame', ['openGoods']),
+    async openTagItem(item) {
+      const { tagId } = item
+      this.$router.push({
+        name: 'case',
+        query: {
+          tagId
+        }
+      })
+    },
   },
   async mounted() {
     await this._getRecommend()

@@ -32,7 +32,18 @@ class GoodsService extends Service {
       },
       headers
     })
-    console.info(encodeURIComponent(redirectUrl))
+    return data
+  }
+
+  /** 根据分类获取商品 */
+  async getCase(opts = {}) {
+    const { ctx } = this
+    const { tagId, page, pageSize } = opts
+    const url = 'https://shop42284557.youzan.com/wscshop/showcase/goodsList.json'
+    const { data } = await ctx.curl(url, {
+      data: { tagId, page, pageSize, goodsFrom: 1 },
+      headers,
+    })
     return data
   }
 }

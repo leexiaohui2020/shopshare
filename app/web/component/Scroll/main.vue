@@ -8,7 +8,9 @@
 
 <script>
 import BScroll from '@better-scroll/core'
+import Pullup from '@better-scroll/pull-up'
 
+BScroll.use(Pullup)
 export default {
   name: 'LeeScroll',
   props: {
@@ -23,6 +25,9 @@ export default {
     probeType: {
       type: Number,
       default: 3
+    },
+    onPullUp: {
+      type: Function
     }
   },
   computed: {
@@ -41,10 +46,23 @@ export default {
       } else {
         Object.assign(bounce, this.bounce)
       }
+
+      const pullUpLoad = typeof this.onPullUp === 'function'
+      if (pullUpLoad) {
+        bounce.bottom = true
+      }
       const scroll = this.scroll = new BScroll(wrapper, {
         bounce,
+        pullUpLoad,
         probeType: this.probeType
       })
+
+      if (pullUpLoad) {
+        scroll.on('pullingUp', async () => {
+          await this.onPullUp()
+          scroll.finishPullUp()
+        })
+      }
     },
 
     async refresh() {

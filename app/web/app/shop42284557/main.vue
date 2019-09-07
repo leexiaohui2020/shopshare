@@ -1,6 +1,9 @@
 <template>
   <lee-base>
-    <router-view />
+    <lee-header />
+    <keep-alive exclude="LeeCase">
+      <router-view />
+    </keep-alive>
   </lee-base>
 </template>
 

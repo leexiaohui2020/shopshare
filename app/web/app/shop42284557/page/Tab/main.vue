@@ -1,6 +1,5 @@
 <template>
   <div>
-    <lee-header />
     <router-view />
   </div>
 </template>
