@@ -4,7 +4,7 @@
     <img ref="picture" :src="tag.picture" class="response" v-if="tag">
     <lee-grid class="padding-lr" :col="2" :gutter="10">
       <div v-for="(v, k) of goods" :key="k">
-        <lee-goods :data="v" @select="() => v.open()" />
+        <lee-goods :data="v" />
       </div>
     </lee-grid>
   </lee-scroll>
@@ -36,6 +36,9 @@ export default {
     async getCase() {
       if (this.loading) return
       if (this.loadEnd) return
+      this.loading = true
+      this.$loading.start()
+
       const { tagId, page, pageSize } = this
       const data = await getCase({ tagId, page: page + 1, pageSize })
       if (data.length > 0) {
@@ -44,6 +47,9 @@ export default {
       } else {
         this.loadEnd = true
       }
+
+      this.loading = false
+      this.$loading.finish()
     },
 
     async onPullUp() {

@@ -1,5 +1,5 @@
 <template>
-  <lee-base>
+  <lee-base v-loading="$loading.value">
     <lee-header />
     <keep-alive exclude="LeeCase">
       <router-view />

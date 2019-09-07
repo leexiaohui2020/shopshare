@@ -1,6 +1,7 @@
 'use strict';
 import Vue from 'vue';
 import { sync } from 'vuex-router-sync';
+import './directive'
 
 export default class App {
 

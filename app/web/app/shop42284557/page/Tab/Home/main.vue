@@ -20,7 +20,7 @@
       <h3 class="caption">推荐商品</h3>
       <lee-grid class="padding-lr" :col="2" :gutter="10">
         <div v-for="(v, k) of recommendGoods" :key="k">
-          <lee-goods :data="v" @select="onSelectGoods" />
+          <lee-goods :data="v" />
         </div>
       </lee-grid>
     </lee-scroll>
@@ -46,10 +46,6 @@ export default {
   methods: {
     async _getRecommend() {
       this.recommendGoods = await getRecommend()
-    },
-
-    async onSelectGoods(goods) {
-      await goods.open()
     },
 
     async openTagItem(item) {

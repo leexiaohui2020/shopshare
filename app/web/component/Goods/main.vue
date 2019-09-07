@@ -1,5 +1,5 @@
 <template>
-  <div class="goods" @click="select">
+  <div class="goods" @click="select" v-loading="loading">
     <div class="goods-image">
       <img v-lazy="data.image" :alt="data.title">
     </div>
@@ -24,9 +24,16 @@ export default {
       type: Goods
     }
   },
+  data() {
+    return {
+      loading: false
+    }
+  },
   methods: {
-    select() {
-      this.$emit('select', this.data)
+    async select() {
+      this.loading = true
+      await this.data.open()
+      this.loading = false
     }
   }
 }
