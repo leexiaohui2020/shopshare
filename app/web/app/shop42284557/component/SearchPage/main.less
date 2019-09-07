@@ -1,0 +1,27 @@
+@import '~common/style/vars';
+
+.page {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: @bg-card;
+  z-index: @z-index-df;
+}
+
+.search {
+  padding: @margin-sm;
+  background: @bg-bar;
+  display: flex;
+  align-items: center;
+
+  &-input {
+    flex: 1;
+  }
+
+  &-action {
+    color: @color-theme;
+    padding-left: @margin-sm;
+  }
+}

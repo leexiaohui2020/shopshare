@@ -3,6 +3,7 @@
     <!-- 搜索点击框 -->
     <div class="search-box">
       <lee-input prefix="search" :placeholder="SEARCH_PLACEHOLDER" />
+      <div class="cover" @click="openSearchPage"></div>
     </div>
 
     <lee-scroll ref="scroll" height="calc(100vh - 100px)">
@@ -57,6 +58,10 @@ export default {
         }
       })
     },
+
+    async openSearchPage() {
+      this.$search.open()
+    }
   },
   async mounted() {
     await this._getRecommend()

@@ -1,7 +1,7 @@
 <template>
   <div class="bar">
     <lee-icon class="bar-prefix" :type="prefix" v-if="prefix" />
-    <input class="bar-input" :placeholder="placeholder">
+    <input ref="input" class="bar-input" :placeholder="placeholder" v-model="VALUE">
     <lee-icon class="bar-suffix" :type="suffix" v-if="suffix" />
   </div>
 </template>
@@ -21,6 +21,32 @@ export default {
     placeholder: {
       type: String,
       default: ''
+    },
+    value: {
+      type: String,
+      default: ''
+    }
+  },
+  data() {
+    return {
+      VALUE: this.value
+    }
+  },
+  methods: {
+    focus() {
+      this.$nextTick(() => {
+        this.$refs.input.focus()
+      })
+    }
+  },
+  watch: {
+    value(v) {
+      this.VALUE = v
+    },
+    VALUE(v) {
+      if (v !== this.value) {
+        this.$emit('input', v)
+      }
     }
   }
 }
