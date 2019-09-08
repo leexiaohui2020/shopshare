@@ -54,6 +54,7 @@ export default {
       const scroll = this.scroll = new BScroll(wrapper, {
         bounce,
         pullUpLoad,
+        click: true,
         probeType: this.probeType
       })
 
