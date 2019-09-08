@@ -7,6 +7,7 @@
         <lee-goods :data="v" />
       </div>
     </lee-grid>
+    <lee-load-end :height="loadEndHeight" v-show="loadEnd" />
   </lee-scroll>
 </template>
 
@@ -19,10 +20,11 @@ export default {
     return {
       tagId: null,
       page: 0,
-      pageSize: 10,
+      pageSize: 20,
       goods: [],
       loading: false,
-      loadEnd: false
+      loadEnd: false,
+      loadEndHeight: '40px'
     }
   },
   computed: {
@@ -44,16 +46,22 @@ export default {
       if (data.length > 0) {
         this.page ++
         this.goods = this.goods.concat(data)
-      } else {
+      }
+      if (data.length < pageSize) {
         this.loadEnd = true
       }
-
       this.loading = false
       this.$loading.finish()
     },
 
     async onPullUp() {
       await this.getCase()
+    },
+
+    async reinitLoadEndHeight() {
+      const scroll = this.$refs.scroll.scroll
+      const height = Math.max(scroll.maxScrollY - scroll.y)
+      this.loadEndHeight = `${height + 40}px`
     }
   },
   async created() {
@@ -65,10 +73,18 @@ export default {
     }
   },
   async mounted() {
-    await this.getCase()
+    this.$nextTick(async () => {
+      const scroll = this.$refs.scroll.scroll
+      scroll.on('scroll', this.reinitLoadEndHeight)
+      scroll.on('refresh', this.reinitLoadEndHeight)
+      await this.getCase()
+    })
   },
   watch: {
     goods() {
+      this.$refs.scroll.refresh()
+    },
+    loadEnd() {
       this.$refs.scroll.refresh()
     }
   },

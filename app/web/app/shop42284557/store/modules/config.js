@@ -26,6 +26,27 @@ export default {
         image: 'https://img.yzcdn.cn/upload_files/2019/07/19/FjuPVtQ8jzotEGZlI2spX2tKcQBg.png!large.png',
         picture: 'https://img.yzcdn.cn/upload_files/2019/07/23/Fv5ahJdLIwrnGOwanRG0eBbAKoTs.png!large.png'
       }
+    ],
+    filterNav: [
+      {
+        key: '',
+        title: '综合',
+      },
+      {
+        key: 'totalSoldNum',
+        title: '销量',
+        value: ['desc']
+      },
+      {
+        key: 'activityPrice',
+        title: '价格',
+        value: ['asc', 'desc']
+      },
+      {
+        key: 'createdTime',
+        title: '上新',
+        value: ['desc']
+      }
     ]
   }
 }

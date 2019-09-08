@@ -4,6 +4,7 @@ module.exports = app => {
   router.post('/api/goods/getRecommend', controller.api.goods.getRecommend)
   router.post('/api/goods/getShortLink', controller.api.goods.getShortLink)
   router.post('/api/goods/getCase', controller.api.goods.getCase)
+  router.post('/api/goods/getGoodsByKeywords', controller.api.goods.getGoodsByKeywords)
   router.get('/', controller.app.index)
   router.get('/shop42284557(/.+)?', controller.app.shop42284557)
 }

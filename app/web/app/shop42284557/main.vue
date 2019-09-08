@@ -1,7 +1,7 @@
 <template>
   <lee-base v-loading="$loading.value">
     <lee-header />
-    <keep-alive exclude="LeeCase">
+    <keep-alive exclude="LeeCase,LeeSearch">
       <router-view />
     </keep-alive>
     <search-page></search-page>

@@ -3,7 +3,7 @@
     <!-- 搜索点击框 -->
     <div class="search-box">
       <lee-input prefix="search" :placeholder="SEARCH_PLACEHOLDER" />
-      <div class="cover" @click="openSearchPage"></div>
+      <div class="cover" @click="openSearch"></div>
     </div>
 
     <lee-scroll ref="scroll" height="calc(100vh - 100px)">
@@ -30,7 +30,7 @@
 
 <script>
 import { SEARCH_PLACEHOLDER } from 'common/constant-types'
-import { mapState } from 'vuex'
+import { mapState, mapActions } from 'vuex'
 import { getRecommend } from 'shop42284557/api/goods'
 
 export default {
@@ -59,9 +59,7 @@ export default {
       })
     },
 
-    async openSearchPage() {
-      this.$search.open()
-    }
+    ...mapActions('search', ['openSearch'])
   },
   async mounted() {
     await this._getRecommend()

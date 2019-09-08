@@ -1,0 +1,21 @@
+@import '~common/style/vars';
+@filter-h: 40px;
+.filter {
+  height: @filter-h;
+  background: @bg-card;
+  box-shadow: 0 0 1px @shadow-color-l;
+  display: flex;
+
+  &-item {
+    flex: 1;
+    height: @filter-h;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: @text-color-l;
+
+    &.active {
+      color: @color-theme;
+    }
+  }
+}

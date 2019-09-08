@@ -1,7 +1,7 @@
 <template>
   <div class="bar">
     <lee-icon class="bar-prefix" :type="prefix" v-if="prefix" />
-    <input ref="input" class="bar-input" :placeholder="placeholder" v-model="VALUE">
+    <input ref="input" class="bar-input" :placeholder="placeholder" v-model="VALUE" @keyup.enter="onEnter">
     <lee-icon class="bar-suffix" :type="suffix" v-if="suffix" />
   </div>
 </template>
@@ -37,6 +37,10 @@ export default {
       this.$nextTick(() => {
         this.$refs.input.focus()
       })
+    },
+
+    onEnter() {
+      this.$emit('enter', this.VALUE)
     }
   },
   watch: {

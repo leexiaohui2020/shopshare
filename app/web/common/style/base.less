@@ -14,9 +14,45 @@ body {
   font-size: @text-df;
 }
 
-.padding-lr {
-  padding-left: @margin-df;
-  padding-right: @margin-df;
+.padding {
+  padding: @margin-df;
+
+  &-tb {
+
+    &-sm {
+      padding-top: @margin-sm;
+      padding-bottom: @margin-sm;
+    }
+
+    &-xs {
+      padding-top: @margin-xs;
+      padding-bottom: @margin-xs;
+    }
+  }
+
+  &-lr {
+    padding-left: @margin-df;
+    padding-right: @margin-df;
+  }
+}
+
+.margin {
+  margin: @margin-df;
+
+  &-left {
+    &-xs {
+      margin-left: @margin-xs;
+    }
+  }
+
+  &-right {
+    &-xs {
+      margin-right: @margin-xs;
+    }
+    &-sm {
+      margin-right: @margin-sm;
+    }
+  }
 }
 
 .response {

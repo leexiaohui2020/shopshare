@@ -1,0 +1,63 @@
+@import '~common/style/vars';
+@import '~common/style/mixs';
+
+@goods-h: 145px;
+
+.goods {
+  height: @goods-h;
+  display: flex;
+  background: @bg-card;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1px 1px @shadow-color;
+  
+  &-image {
+    width: @goods-h;
+    height: @goods-h;
+    margin-right: @margin-sm;
+  }
+
+  &-info {
+    flex: 1;
+    height: @goods-h;
+  }
+
+  &-title {
+    margin: 0;
+    margin-top: @margin-sm;
+    font-size: @text-df;
+    font-weight: normal;
+    .text-cut(2);
+  }
+
+  @footer-h: 45px;
+  &-footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: @footer-h;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .icon {
+      color: @color-red;
+      font-size: @text-lg;
+    }
+  }
+
+  &-price {
+    color: @color-red;
+    font-size: @text-lg;
+    &::before {
+      content: '￥';
+      font-size: @text-sm;
+    }
+  }
+
+  &-sold {
+    font-size: @text-sm;
+    color: @text-color-l;
+  }
+}

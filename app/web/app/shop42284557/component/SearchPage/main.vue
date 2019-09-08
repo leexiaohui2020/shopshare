@@ -3,40 +3,37 @@
     <div class="page" v-show="show">
       <div class="search">
         <lee-input
-          class="search-input"
           ref="input"
+          class="search-input"
           prefix="search"
-          :placeholder="SEARCH_PLACEHOLDER"
           v-model="keywords"
+          :placeholder="placeholder"
+          @enter="commitKeywords"
         />
-        <div class="search-action" @click="close">取消</div>
+        <div class="search-action" @click="closeSearch">取消</div>
       </div>
     </div>
   </transition>
 </template>
 
 <script>
-import { SEARCH_PLACEHOLDER } from 'common/constant-types'
+import { mapState, mapActions } from 'vuex'
 export default {
   name: 'LeeSearchPage',
   data() {
     return {
-      keywords: '',
-      SEARCH_PLACEHOLDER
+      keywords: ''
     }
   },
   computed: {
-    show() {
-      return this.$search.show
-    }
+    ...mapState('search', ['show', 'placeholder'])
   },
   methods: {
-    close() {
-      this.$search.close()
-    }
+    ...mapActions('search', ['commitKeywords', 'closeSearch'])
   },
   watch: {
     show(v) {
+      this.keywords = ''
       if (v) {
         this.$refs.input.focus()
       }

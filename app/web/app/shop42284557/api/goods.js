@@ -20,6 +20,12 @@ export async function getCase(opts = {}) {
   return data.data.list.map(item => new Goods(item))
 }
 
+export async function getGoodsByKeywords(opts = {}) {
+  const { data } = await axios.post('/api/goods/getGoodsByKeywords', opts)
+  if (data.code !== ERR_OK) return null
+  return data.data.map(item => new Goods(item))
+}
+
 export class Goods {
   constructor(opts = {}) {
     this.id = opts.id
@@ -28,6 +34,7 @@ export class Goods {
     this.price = Number(opts.price)
     this.image = `${opts.image_url}!middle.jpg`
     this.subTitle = opts.sub_title
+    this.totalSoldNum = opts.total_sold_num
   }
 
   async open() {

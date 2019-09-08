@@ -46,6 +46,24 @@ class GoodsService extends Service {
     })
     return data
   }
+
+  /** 根据关键词获取商品 */
+  async getGoodsByKeywords(opts = {}) {
+    const { ctx } = this
+    const { keyword, page, page_size, order, order_by } = opts
+    const requestData = { keyword, page, page_size, order, order_by }
+    for (const k in requestData) {
+      if (!requestData[k]) {
+        delete requestData[k]
+      }
+    }
+    const url = 'https://shop42284557.youzan.com/wscshop/showcase/goods_search/goods.json'
+    const { data } = await ctx.curl(url, {
+      data: requestData,
+      headers
+    })
+    return data
+  }
 }
 
 module.exports = GoodsService

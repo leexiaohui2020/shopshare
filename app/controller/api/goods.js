@@ -16,6 +16,11 @@ class GoodsApiController extends Controller {
     const { ctx } = this
     ctx.body = await ctx.service.goods.getCase(ctx.request.body)
   }
+
+  async getGoodsByKeywords() {
+    const { ctx } = this
+    ctx.body = await ctx.service.goods.getGoodsByKeywords(ctx.request.body)
+  }
 }
 
 module.exports = GoodsApiController

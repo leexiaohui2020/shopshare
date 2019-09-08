@@ -67,8 +67,13 @@ export default {
 
     async refresh() {
       this.$nextTick(() => {
-        this.scroll && this.scroll.refresh()
+        if (!this.scroll) return
+        this.scroll.refresh()
       })
+    },
+
+    async scrollTo(x, y) {
+      this.scroll && this.scroll.scrollTo(x, y)
     }
   },
   async mounted() {
