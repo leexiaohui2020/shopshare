@@ -72,7 +72,7 @@ export default {
   },
   installRouter(router) {
     router.regist('home', '/home', this, {
-      title: '返现购'
+      title: '优品推荐'
     })
   }
 }

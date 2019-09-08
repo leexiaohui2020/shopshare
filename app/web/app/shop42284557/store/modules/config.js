@@ -1,6 +1,6 @@
 export default {
   state: {
-    siteTitle: '返现购',
+    siteTitle: '优品推荐',
     typesNav: [
       {
         title: '文创',
@@ -48,6 +48,6 @@ export default {
         value: ['desc']
       }
     ],
-    title: '返现购'
+    title: '优品推荐'
   }
 }
