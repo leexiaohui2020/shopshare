@@ -7,3 +7,4 @@ typings/
 .travis.yml
 appveyor.yml
 jsconfig.json
+view/
