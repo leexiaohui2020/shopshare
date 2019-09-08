@@ -1,3 +1,4 @@
+const fs = require('fs')
 const path = require('path')
 
 module.exports = app => ({
@@ -39,5 +40,9 @@ module.exports = app => ({
     '492704570',
     '492528552',
     '492533820'
-  ]
+  ],
+
+  siteFile: {
+    '/favicon.ico': fs.readFileSync(path.join(app.baseDir, 'app/web/common/asset/favicon.ico'))
+  }
 })
