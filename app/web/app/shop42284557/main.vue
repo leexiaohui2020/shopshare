@@ -1,5 +1,5 @@
 <template>
-  <lee-base v-loading="$loading.value">
+  <lee-base v-loading="$loading.value" :title="title">
     <lee-header />
     <keep-alive exclude="LeeCase,LeeSearch">
       <router-view />
@@ -10,8 +10,12 @@
 
 <script>
 import SearchPage from './component/SearchPage/main'
+import { mapState } from 'vuex'
 export default {
   name: 'LeeRoot',
-  components: { SearchPage }
+  components: { SearchPage },
+  computed: {
+    ...mapState('config', ['title'])
+  }
 }
 </script>

@@ -6,9 +6,9 @@ const template = `
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" :content="keywords" v-if="keywords">
-    <meta name="description" :content="description" v-if="description">
-    <title>{{ title }}</title>
+    <meta name="keywords" :content="keywords" v-if="vkeywords">
+    <meta name="description" :content="description" v-if="vdescription">
+    <title>{{ vtitle }}</title>
   </head>
   <body>
     ${content}
@@ -18,14 +18,17 @@ const template = `
 
 export default {
   name: 'LeeBase',
+  props: {
+    title: String,
+  },
   computed: {
-    title() {
-      return this.$route.meta.title
+    vtitle() {
+      return this.$route.meta.title || this.title
     },
-    keywords() {
+    vkeywords() {
       return this.$route.meta.keywords
     },
-    description() {
+    vdescription() {
       return this.$route.meta.description
     }
   },

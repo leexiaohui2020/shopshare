@@ -89,7 +89,9 @@ export default {
     }
   },
   installRouter(router) {
-    router.regist('case', '/case', this)
+    router.regist('case', '/case', this, {
+      title: '商品分类'
+    })
   }
 }
 </script>

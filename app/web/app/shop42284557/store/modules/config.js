@@ -47,6 +47,7 @@ export default {
         title: '上新',
         value: ['desc']
       }
-    ]
+    ],
+    title: '返现购'
   }
 }

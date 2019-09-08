@@ -120,7 +120,6 @@ export default {
     })
   },
   async beforeRouteUpdate(to, from, next) {
-    console.info(123)
     next()
     await this._reInit()
   },
@@ -133,7 +132,9 @@ export default {
     }
   },
   installRouter(router) {
-    router.regist('search', '/search', this)
+    router.regist('search', '/search', this, {
+      title: '商品搜索'
+    })
   }
 }
 </script>

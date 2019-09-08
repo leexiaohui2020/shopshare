@@ -71,7 +71,9 @@ export default {
     }
   },
   installRouter(router) {
-    router.regist('home', '/home', this)
+    router.regist('home', '/home', this, {
+      title: '返现购'
+    })
   }
 }
 </script>
