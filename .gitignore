@@ -8,3 +8,4 @@ typings/
 appveyor.yml
 jsconfig.json
 view/
+package-lock.json
