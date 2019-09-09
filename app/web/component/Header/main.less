@@ -12,10 +12,12 @@
 
   &-title {
     margin: 0;
-    text-align: center;
-    line-height: @header-h;
+    height: @header-h;
     font-size: @text-xl;
     color: @color-theme;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &-custom {
@@ -41,5 +43,12 @@
     &.right {
       right: 0;
     }
+  }
+
+  &-icon {
+    @w: 22px;
+    width: @w;
+    height: @w;
+    margin-right: @margin-sm;
   }
 }

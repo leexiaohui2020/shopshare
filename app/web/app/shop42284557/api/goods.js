@@ -41,6 +41,6 @@ export class Goods {
     const goodsId = this.id
     const redirectUrl = `http://shop42284557.youzan.com/v2/goods/${this.alias}`
     const url = await getShortLink({ redirectUrl, goodsId })
-    window.open(url, '_blank')
+    window.open(url, '_self')
   }
 }

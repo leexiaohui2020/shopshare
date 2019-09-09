@@ -1,31 +1,29 @@
 <template>
-  <div>
+  <lee-scroll ref="scroll" height="calc(100vh - 50px)">
     <!-- 搜索点击框 -->
     <div class="search-box">
       <lee-input prefix="search" :placeholder="SEARCH_PLACEHOLDER" />
       <div class="cover" @click="openSearch"></div>
     </div>
 
-    <lee-scroll ref="scroll" height="calc(100vh - 100px)">
-      <!-- 分类导航 -->
-      <lee-grid class="nav">
-        <div class="nav-item" v-for="(v, k) of typesNav" :key="k" @click="openTagItem(v)">
-          <div class="nav-image">
-            <img :src="v.image" :alt="v.title">
-          </div>
-          <div class="nav-title">{{ v.title }}</div>
+    <!-- 分类导航 -->
+    <lee-grid class="nav">
+      <div class="nav-item" v-for="(v, k) of typesNav" :key="k" @click="openTagItem(v)">
+        <div class="nav-image">
+          <img :src="v.image" :alt="v.title">
         </div>
-      </lee-grid>
+        <div class="nav-title">{{ v.title }}</div>
+      </div>
+    </lee-grid>
 
-      <!-- 推荐商品 -->
-      <h3 class="caption">推荐商品</h3>
-      <lee-grid class="padding-lr" :col="2" :gutter="10">
-        <div v-for="(v, k) of recommendGoods" :key="k">
-          <lee-goods :data="v" />
-        </div>
-      </lee-grid>
-    </lee-scroll>
-  </div>
+    <!-- 推荐商品 -->
+    <h3 class="caption">推荐商品</h3>
+    <lee-grid class="padding-lr" :col="2" :gutter="10">
+      <div v-for="(v, k) of recommendGoods" :key="k">
+        <lee-goods :data="v" />
+      </div>
+    </lee-grid>
+  </lee-scroll>
 </template>
 
 <script>
